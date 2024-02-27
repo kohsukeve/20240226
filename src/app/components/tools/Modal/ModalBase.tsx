@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "./Modal";
+import ContactForm from "../../ContactForm";
 
 const ModalBase = ({ title, content, icon }: any) => {
   const [show, setShow] = useState(false);
@@ -43,7 +43,7 @@ const ModalBase = ({ title, content, icon }: any) => {
               <div className="p-5">
                 <h1>{title}</h1>
                 <p>{content}</p>
-                <Modal />
+                <ContactForm />
               </div>
             </div>
           </div>
