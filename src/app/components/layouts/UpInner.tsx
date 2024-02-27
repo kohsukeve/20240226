@@ -43,7 +43,6 @@ const UpInner = () => {
     //     </div>
 
     <div className="flex mx-40 justify-between">
-      <Modal />
       <div className="flex align-middle items-center">Contact</div>
       <div className="flex align-middle items-center">SignIn</div>
     </div>
